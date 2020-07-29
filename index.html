@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Oshine 19</title>
+<link href="img/favicon.ico" rel="icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area">
+		<div class="container">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="index.html"><img src="img/oshine-v15-logo.png" class="img-fluid"></a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#sec-coaches">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Work</a>
+				  </li>
+				   <li class="nav-item">
+					<a class="nav-link" href="#">Clients</a>
+				  </li>
+				   <li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				  </li>
+				</ul>
+			  	<ul class="navbar-nav ml-auto lista-redes">
+				  <li class="nav-item">
+					<a class="facebook" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="pinterest" href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+				  </li>
+				</ul>
+				  
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+	
+	<section id="connect">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-6 col-sm-12">
+					<img src="img/iphone-mock-rev.png" class="img-fluid">
+				</article>
+				<article class="col-md-6 col-sm-12">
+					<h1>A New Way To Connect</h1>
+					<p>Oshine comes with 12 unique and stunnig demos. We have crafted each and every demo with extensive care and precision and the theme is power packed yet, easy to use. </p>
+					<a href="#" class="btn btn-dark "><img src="img/badge_appstore.png" class="img-fluid"></a>
+					<a href="#" class="btn btn-dark "><img src="img/badge_playstore.png" class="img-fluid"></a>
+				</article>
+			</div>
+		</div>
+	</section>
+
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+    <script>
+		$(function() {
+			$(window).on('scroll', function () {
+				if ($(window).scrollTop() > 48) {
+					$('.header-area').addClass('sticky slideInDown');
+				} else {
+					$('.header-area').removeClass('sticky slideInDown');
+				}
+			});
+			
+			$('#nav').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 1000,
+				easing: 'easeOutQuad'
+        	});
+			
+			
+			
+		});
+	</script>
+</body>
+
+</html>

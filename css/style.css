@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #000 !important;
+}
+
+.lista-redes a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #ccc;
+	display: block;
+	color: #fff;
+}
+.lista-redes li{
+	padding-right: 10px;
+}
+.lista-redes .facebook{
+	background-color: #3b5998;
+}
+.lista-redes .twitter{
+	background-color: #0c9aca;
+}
+
+#connect{
+	background-image: url(../img/iphone-rev-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: left;
+	color: #000;
+	height: 100vh;
+}
+
+#connect .container{
+	padding: 13% 0;
+}
+
+#connect h1{
+	font-size: 50px;
+	font-weight: 200;
+}
+
+#connect p{
+	padding: 5% 0 3% 0;
+	font-size: 20px;
+	font-weight: 50;
+}
+
