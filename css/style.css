@@ -37,6 +37,10 @@ body{
 	background-color: #0c9aca;
 }
 
+.lista-redes .pinterest{
+	background-color: #ff0909;
+}
+
 #connect{
 	background-image: url(../img/iphone-rev-bg.jpg);
 	background-size: cover;
